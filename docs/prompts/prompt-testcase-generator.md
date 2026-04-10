@@ -86,21 +86,3 @@ Cada caso de teste deve seguir exatamente este formato:
 4. Inclua casos de teste para cada perfil de usuário listado, sempre que houver comportamentos distintos.
 5. Seja detalhado nos passos — cada ação deve ser clara o suficiente para que qualquer pessoa execute o teste sem dúvidas.
 6. Gere o resultado em formato Markdown, pronto para ser salvo em um arquivo `.md` dentro da pasta `docs/tests` do projeto.
-
----
-
-## Resultado e Casos de Testes Gerados
-
-Os casos de teste detalhados foram gerados e salvos no arquivo `docs/tests/casos_de_teste.md`. Abaixo estão alguns exemplos de escopos extraídos das solicitações acima:
-
-1. **CT01** - Navegação da Landing Page para o Configurador (Fluxo Feliz)
-2. **CT02** - Validação de Precificação - Veículo Base
-3. **CT03** - Validação de Precificação - Adição de Opcionais (+ R$ 2.000, + R$ 5.500, + R$ 5.000)
-4. **CT04** - Simulação de Financiamento - Validação de Juros em 12x de 2% a.m.
-5. **CT05** - Validação de Campos Obrigatórios de Cadastro (Fluxo Negativo)
-6. **CT06** - Análise de Crédito - Score Alto > 700 (Aprovado)
-7. **CT07** - Análise de Crédito - Score Médio entre 501 e 700 (Em Análise)
-8. **CT08** - Análise de Crédito - Score Baixo <= 500 (Reprovado)
-9. **CT09** - Exceção de Análise - Entrada Maior ou Igual a 50% (Aprovação Automática bypassando Score)
-10. **CT10** - Consulta de Pedidos Válida utilizando o `order_number`
-11. **CT11** - Consulta de Pedidos Inválida (Validação de Segurança sem o hash correto)

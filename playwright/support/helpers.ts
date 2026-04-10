@@ -1,13 +1,13 @@
 export function generateOrderCode() {
-    const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+    const prefix = 'VLO'
 
-    const generatePart = (length: number) => {
-        let result = ''
-        for (let i = 0; i < length; i++) {
-            result += letters.charAt(Math.floor(Math.random() * letters.length))
-        }
-        return result
+    const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'
+    let randomPart = ''
+
+    for (let i = 0; i < 6; i++) {
+        const randomIndex = Math.floor(Math.random() * chars.length)
+        randomPart += chars[randomIndex]
     }
 
-    return `${generatePart(3)}-${generatePart(6)}`
+    return `${prefix}-${randomPart}`
 }

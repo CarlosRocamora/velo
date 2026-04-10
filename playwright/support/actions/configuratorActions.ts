@@ -1,54 +1,44 @@
 import { Page, expect } from '@playwright/test'
 
 export function createConfiguratorActions(page: Page) {
-  const titleHeading = page.getByRole('heading', { name: 'Velô Sprint' })
-  const opcionaisHeading = page.getByRole('heading', { name: 'Opcionais' })
-  const totalPrice = page.getByTestId('total-price')
-  const carImage = page.locator('img[alt^="Velô Sprint"]')
-
-  const colorButton = (name: string) => page.getByRole('button', { name })
-  const wheelButton = (name: string | RegExp) => page.getByRole('button', { name })
-  const optionalCheckbox = (label: string | RegExp) =>
-    page.getByRole('checkbox', { name: label })
+  const optionalCheckbox = (name: string | RegExp) => page.getByRole('checkbox', { name })
 
   return {
-    elements: {
-      titleHeading,
-      opcionaisHeading,
-      totalPrice,
-      carImage,
-      colorButton,
-      wheelButton,
-      optionalCheckbox,
-    },
-
     async open() {
       await page.goto('/configure')
     },
 
     async selectColor(name: string) {
-      await colorButton(name).click()
+      await page.getByRole('button', { name }).click()
     },
 
     async selectWheels(name: string | RegExp) {
-      await wheelButton(name).click()
+      await page.getByRole('button', { name }).click()
     },
 
     async expectPrice(price: string) {
-      await expect(totalPrice).toBeVisible()
-      await expect(totalPrice).toHaveText(price)
+      const priceElement = page.getByTestId('total-price')
+      await expect(priceElement).toBeVisible()
+      await expect(priceElement).toHaveText(price)
     },
 
     async expectCarImageSrc(src: string) {
+      const carImage = page.locator('img[alt^="Velô Sprint"]')
       await expect(carImage).toHaveAttribute('src', src)
     },
 
-    async checkOptional(label: string | RegExp) {
-      await optionalCheckbox(label).check()
+    async checkOptional(name: string | RegExp) {
+      await expect(optionalCheckbox(name)).toBeVisible()
+      await optionalCheckbox(name).check()
     },
 
-    async uncheckOptional(label: string | RegExp) {
-      await optionalCheckbox(label).uncheck()
+    async uncheckOptional(name: string | RegExp) {
+      await expect(optionalCheckbox(name)).toBeVisible()
+      await optionalCheckbox(name).uncheck()
+    },
+
+    async finishConfigurator() {
+      await page.getByRole('button', { name: 'Monte o Seu' }).click()
     },
   }
 }
