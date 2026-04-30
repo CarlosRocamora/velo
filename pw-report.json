@@ -1,0 +1,1112 @@
+﻿Ôùç injected env (6) from .env // tip: Ôîü auth for agents [www.vestauth.com]
+{
+  "config": {
+    "configFile": "C:\\automatizai\\velo\\playwright.config.ts",
+    "rootDir": "C:/automatizai/velo/playwright/e2e",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 6
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "json"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/automatizai/velo/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 6
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/automatizai/velo/playwright/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.57.0",
+    "workers": 6,
+    "webServer": {
+      "command": "yarn dev",
+      "url": "http://localhost:5173",
+      "reuseExistingServer": true
+    }
+  },
+  "suites": [
+    {
+      "title": "checkout.spec.ts",
+      "file": "checkout.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Checkout",
+          "file": "checkout.spec.ts",
+          "line": 3,
+          "column": 6,
+          "specs": [],
+          "suites": [
+            {
+              "title": "Valida├º├Áes de campos obrigat├│rios",
+              "file": "checkout.spec.ts",
+              "line": 4,
+              "column": 8,
+              "specs": [
+                {
+                  "title": "deve validar obrigatoriedade de todos os campos em branco",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 60000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 1926,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-04-29T01:33:45.804Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "trace",
+                              "contentType": "application/zip",
+                              "path": "C:\\automatizai\\velo\\test-results\\checkout-Checkout-Valida├º├Á-e7bfd-e-todos-os-campos-em-branco-chromium\\trace.zip"
+                            }
+                          ]
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "25ab1bfc84c57e3e3a45-07681e561ca9d8cf2f6f",
+                  "file": "checkout.spec.ts",
+                  "line": 17,
+                  "column": 5
+                },
+                {
+                  "title": "deve validar limite m├¡nimo de caracteres para Nome e Sobrenome",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 60000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 1,
+                          "parallelIndex": 1,
+                          "status": "passed",
+                          "duration": 3003,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-04-29T01:33:45.875Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "trace",
+                              "contentType": "application/zip",
+                              "path": "C:\\automatizai\\velo\\test-results\\checkout-Checkout-Valida├º├Á-49d81-teres-para-Nome-e-Sobrenome-chromium\\trace.zip"
+                            }
+                          ]
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "25ab1bfc84c57e3e3a45-52997e956222849acec0",
+                  "file": "checkout.spec.ts",
+                  "line": 32,
+                  "column": 5
+                },
+                {
+                  "title": "deve exibir erro para e-mail com formato inv├ílido",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 60000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 2,
+                          "parallelIndex": 2,
+                          "status": "passed",
+                          "duration": 3058,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-04-29T01:33:45.862Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "trace",
+                              "contentType": "application/zip",
+                              "path": "C:\\automatizai\\velo\\test-results\\checkout-Checkout-Valida├º├Á-b7e27-e-mail-com-formato-inv├ílido-chromium\\trace.zip"
+                            }
+                          ]
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "25ab1bfc84c57e3e3a45-d20e98686ac9e16e96a8",
+                  "file": "checkout.spec.ts",
+                  "line": 55,
+                  "column": 5
+                },
+                {
+                  "title": "deve exibir erro para CPF inv├ílido",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 60000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 3,
+                          "parallelIndex": 3,
+                          "status": "passed",
+                          "duration": 3170,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-04-29T01:33:45.914Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "trace",
+                              "contentType": "application/zip",
+                              "path": "C:\\automatizai\\velo\\test-results\\checkout-Checkout-Valida├º├Á-be0a5-ibir-erro-para-CPF-inv├ílido-chromium\\trace.zip"
+                            }
+                          ]
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "25ab1bfc84c57e3e3a45-f422e6ce48a07f08840c",
+                  "file": "checkout.spec.ts",
+                  "line": 77,
+                  "column": 5
+                },
+                {
+                  "title": "deve exigir o aceite dos termos ao finalizar com dados v├ílidos",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 60000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 4,
+                          "parallelIndex": 4,
+                          "status": "passed",
+                          "duration": 3288,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-04-29T01:33:45.971Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "trace",
+                              "contentType": "application/zip",
+                              "path": "C:\\automatizai\\velo\\test-results\\checkout-Checkout-Valida├º├Á-8f23b-finalizar-com-dados-v├ílidos-chromium\\trace.zip"
+                            }
+                          ]
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "25ab1bfc84c57e3e3a45-8660e04c9a92798423f3",
+                  "file": "checkout.spec.ts",
+                  "line": 99,
+                  "column": 5
+                }
+              ]
+            },
+            {
+              "title": "Pagamento e Confirma├º├úo",
+              "file": "checkout.spec.ts",
+              "line": 122,
+              "column": 8,
+              "specs": [
+                {
+                  "title": "deve criar um pedido com sucesso para pagamento ├á vista",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 60000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 5,
+                          "parallelIndex": 5,
+                          "status": "passed",
+                          "duration": 5725,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-04-29T01:33:45.875Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "trace",
+                              "contentType": "application/zip",
+                              "path": "C:\\automatizai\\velo\\test-results\\checkout-Checkout-Pagament-30f70-esso-para-pagamento-├á-vista-chromium\\trace.zip"
+                            }
+                          ]
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "25ab1bfc84c57e3e3a45-8bbc4f66dca3da0b6265",
+                  "file": "checkout.spec.ts",
+                  "line": 128,
+                  "column": 5
+                },
+                {
+                  "title": "deve aprovar automaticamente o cr├®dito quando o score do CPF for maior que 700 no financiamento",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 60000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 0,
+                          "parallelIndex": 0,
+                          "status": "passed",
+                          "duration": 5046,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-04-29T01:33:48.120Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "trace",
+                              "contentType": "application/zip",
+                              "path": "C:\\automatizai\\velo\\test-results\\checkout-Checkout-Pagament-cc71d-or-que-700-no-financiamento-chromium\\trace.zip"
+                            }
+                          ]
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "25ab1bfc84c57e3e3a45-f7d6b6e2828fcb80c621",
+                  "file": "checkout.spec.ts",
+                  "line": 159,
+                  "column": 5
+                },
+                {
+                  "title": "deve encaminhar para an├ílise de cr├®dito quando o score do CPF for entre 501 e 700 no financiamento",
+                  "ok": false,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 60000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 1,
+                          "parallelIndex": 1,
+                          "status": "failed",
+                          "duration": 9751,
+                          "error": {
+                            "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('heading', { name: 'Pedido em An├ílise!' })\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('heading', { name: 'Pedido em An├ílise!' })\u001b[22m\n",
+                            "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('heading', { name: 'Pedido em An├ílise!' })\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('heading', { name: 'Pedido em An├ílise!' })\u001b[22m\n\n    at Object.expectResult (C:\\automatizai\\velo\\playwright\\support\\actions\\checkoutActions.ts:70:65)\n    at C:\\automatizai\\velo\\playwright\\e2e\\checkout.spec.ts:231:7",
+                            "location": {
+                              "file": "C:\\automatizai\\velo\\playwright\\support\\actions\\checkoutActions.ts",
+                              "column": 65,
+                              "line": 70
+                            },
+                            "snippet": "\u001b[90m   at \u001b[39m..\\support\\actions\\checkoutActions.ts:70\n\n\u001b[0m \u001b[90m 68 |\u001b[39m     \u001b[36masync\u001b[39m expectResult(status\u001b[33m:\u001b[39m string) {\n \u001b[90m 69 |\u001b[39m       \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveURL(\u001b[35m/\\/success/\u001b[39m)\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 70 |\u001b[39m       \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'heading'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m status }))\u001b[33m.\u001b[39mtoBeVisible()\n \u001b[90m    |\u001b[39m                                                                 \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 71 |\u001b[39m     }\n \u001b[90m 72 |\u001b[39m\n \u001b[90m 73 |\u001b[39m   }\u001b[0m"
+                          },
+                          "errors": [
+                            {
+                              "location": {
+                                "file": "C:\\automatizai\\velo\\playwright\\support\\actions\\checkoutActions.ts",
+                                "column": 65,
+                                "line": 70
+                              },
+                              "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('heading', { name: 'Pedido em An├ílise!' })\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('heading', { name: 'Pedido em An├ílise!' })\u001b[22m\n\n\n   at ..\\support\\actions\\checkoutActions.ts:70\n\n  68 |     async expectResult(status: string) {\n  69 |       await expect(page).toHaveURL(/\\/success/)\n> 70 |       await expect(page.getByRole('heading', { name: status })).toBeVisible()\n     |                                                                 ^\n  71 |     }\n  72 |\n  73 |   }\n    at Object.expectResult (C:\\automatizai\\velo\\playwright\\support\\actions\\checkoutActions.ts:70:65)\n    at C:\\automatizai\\velo\\playwright\\e2e\\checkout.spec.ts:231:7"
+                            }
+                          ],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-04-29T01:33:49.546Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "C:\\automatizai\\velo\\test-results\\checkout-Checkout-Pagament-e6321--501-e-700-no-financiamento-chromium\\error-context.md"
+                            },
+                            {
+                              "name": "trace",
+                              "contentType": "application/zip",
+                              "path": "C:\\automatizai\\velo\\test-results\\checkout-Checkout-Pagament-e6321--501-e-700-no-financiamento-chromium\\trace.zip"
+                            }
+                          ],
+                          "errorLocation": {
+                            "file": "C:\\automatizai\\velo\\playwright\\support\\actions\\checkoutActions.ts",
+                            "column": 65,
+                            "line": 70
+                          }
+                        }
+                      ],
+                      "status": "unexpected"
+                    }
+                  ],
+                  "id": "25ab1bfc84c57e3e3a45-7bea9c38317d6ca8b8ad",
+                  "file": "checkout.spec.ts",
+                  "line": 191,
+                  "column": 5
+                },
+                {
+                  "title": "deve reprovar o cr├®dito quando o score do CPF for menor ou igual a 500 no financiamento sem entrada",
+                  "ok": false,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 60000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 2,
+                          "parallelIndex": 2,
+                          "status": "failed",
+                          "duration": 10287,
+                          "error": {
+                            "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('heading', { name: 'Pedido Reprovado!' })\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('heading', { name: 'Pedido Reprovado!' })\u001b[22m\n",
+                            "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('heading', { name: 'Pedido Reprovado!' })\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('heading', { name: 'Pedido Reprovado!' })\u001b[22m\n\n    at Object.expectResult (C:\\automatizai\\velo\\playwright\\support\\actions\\checkoutActions.ts:70:65)\n    at C:\\automatizai\\velo\\playwright\\e2e\\checkout.spec.ts:265:7",
+                            "location": {
+                              "file": "C:\\automatizai\\velo\\playwright\\support\\actions\\checkoutActions.ts",
+                              "column": 65,
+                              "line": 70
+                            },
+                            "snippet": "\u001b[90m   at \u001b[39m..\\support\\actions\\checkoutActions.ts:70\n\n\u001b[0m \u001b[90m 68 |\u001b[39m     \u001b[36masync\u001b[39m expectResult(status\u001b[33m:\u001b[39m string) {\n \u001b[90m 69 |\u001b[39m       \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveURL(\u001b[35m/\\/success/\u001b[39m)\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 70 |\u001b[39m       \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'heading'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m status }))\u001b[33m.\u001b[39mtoBeVisible()\n \u001b[90m    |\u001b[39m                                                                 \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 71 |\u001b[39m     }\n \u001b[90m 72 |\u001b[39m\n \u001b[90m 73 |\u001b[39m   }\u001b[0m"
+                          },
+                          "errors": [
+                            {
+                              "location": {
+                                "file": "C:\\automatizai\\velo\\playwright\\support\\actions\\checkoutActions.ts",
+                                "column": 65,
+                                "line": 70
+                              },
+                              "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('heading', { name: 'Pedido Reprovado!' })\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('heading', { name: 'Pedido Reprovado!' })\u001b[22m\n\n\n   at ..\\support\\actions\\checkoutActions.ts:70\n\n  68 |     async expectResult(status: string) {\n  69 |       await expect(page).toHaveURL(/\\/success/)\n> 70 |       await expect(page.getByRole('heading', { name: status })).toBeVisible()\n     |                                                                 ^\n  71 |     }\n  72 |\n  73 |   }\n    at Object.expectResult (C:\\automatizai\\velo\\playwright\\support\\actions\\checkoutActions.ts:70:65)\n    at C:\\automatizai\\velo\\playwright\\e2e\\checkout.spec.ts:265:7"
+                            }
+                          ],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-04-29T01:33:49.694Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "C:\\automatizai\\velo\\test-results\\checkout-Checkout-Pagament-7c8d3-o-financiamento-sem-entrada-chromium\\error-context.md"
+                            },
+                            {
+                              "name": "trace",
+                              "contentType": "application/zip",
+                              "path": "C:\\automatizai\\velo\\test-results\\checkout-Checkout-Pagament-7c8d3-o-financiamento-sem-entrada-chromium\\trace.zip"
+                            }
+                          ],
+                          "errorLocation": {
+                            "file": "C:\\automatizai\\velo\\playwright\\support\\actions\\checkoutActions.ts",
+                            "column": 65,
+                            "line": 70
+                          }
+                        }
+                      ],
+                      "status": "unexpected"
+                    }
+                  ],
+                  "id": "25ab1bfc84c57e3e3a45-a186ba432bafae35fe96",
+                  "file": "checkout.spec.ts",
+                  "line": 222,
+                  "column": 5
+                },
+                {
+                  "title": "deve reprovar o cr├®dito quando o score do CPF for menor ou igual a 500 no financiamento com entrada menor que 50%",
+                  "ok": false,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 60000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 3,
+                          "parallelIndex": 3,
+                          "status": "failed",
+                          "duration": 10010,
+                          "error": {
+                            "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('heading', { name: 'Pedido Reprovado!' })\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('heading', { name: 'Pedido Reprovado!' })\u001b[22m\n",
+                            "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('heading', { name: 'Pedido Reprovado!' })\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('heading', { name: 'Pedido Reprovado!' })\u001b[22m\n\n    at Object.expectResult (C:\\automatizai\\velo\\playwright\\support\\actions\\checkoutActions.ts:70:65)\n    at C:\\automatizai\\velo\\playwright\\e2e\\checkout.spec.ts:301:7",
+                            "location": {
+                              "file": "C:\\automatizai\\velo\\playwright\\support\\actions\\checkoutActions.ts",
+                              "column": 65,
+                              "line": 70
+                            },
+                            "snippet": "\u001b[90m   at \u001b[39m..\\support\\actions\\checkoutActions.ts:70\n\n\u001b[0m \u001b[90m 68 |\u001b[39m     \u001b[36masync\u001b[39m expectResult(status\u001b[33m:\u001b[39m string) {\n \u001b[90m 69 |\u001b[39m       \u001b[36mawait\u001b[39m expect(page)\u001b[33m.\u001b[39mtoHaveURL(\u001b[35m/\\/success/\u001b[39m)\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 70 |\u001b[39m       \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'heading'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m status }))\u001b[33m.\u001b[39mtoBeVisible()\n \u001b[90m    |\u001b[39m                                                                 \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 71 |\u001b[39m     }\n \u001b[90m 72 |\u001b[39m\n \u001b[90m 73 |\u001b[39m   }\u001b[0m"
+                          },
+                          "errors": [
+                            {
+                              "location": {
+                                "file": "C:\\automatizai\\velo\\playwright\\support\\actions\\checkoutActions.ts",
+                                "column": 65,
+                                "line": 70
+                              },
+                              "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m(\u001b[22m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('heading', { name: 'Pedido Reprovado!' })\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n\u001b[2m  - Expect \"toBeVisible\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('heading', { name: 'Pedido Reprovado!' })\u001b[22m\n\n\n   at ..\\support\\actions\\checkoutActions.ts:70\n\n  68 |     async expectResult(status: string) {\n  69 |       await expect(page).toHaveURL(/\\/success/)\n> 70 |       await expect(page.getByRole('heading', { name: status })).toBeVisible()\n     |                                                                 ^\n  71 |     }\n  72 |\n  73 |   }\n    at Object.expectResult (C:\\automatizai\\velo\\playwright\\support\\actions\\checkoutActions.ts:70:65)\n    at C:\\automatizai\\velo\\playwright\\e2e\\checkout.spec.ts:301:7"
+                            }
+                          ],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-04-29T01:33:49.778Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "C:\\automatizai\\velo\\test-results\\checkout-Checkout-Pagament-e487f-o-com-entrada-menor-que-50--chromium\\error-context.md"
+                            },
+                            {
+                              "name": "trace",
+                              "contentType": "application/zip",
+                              "path": "C:\\automatizai\\velo\\test-results\\checkout-Checkout-Pagament-e487f-o-com-entrada-menor-que-50--chromium\\trace.zip"
+                            }
+                          ],
+                          "errorLocation": {
+                            "file": "C:\\automatizai\\velo\\playwright\\support\\actions\\checkoutActions.ts",
+                            "column": 65,
+                            "line": 70
+                          }
+                        }
+                      ],
+                      "status": "unexpected"
+                    }
+                  ],
+                  "id": "25ab1bfc84c57e3e3a45-6a52c7e160cbf6ba987b",
+                  "file": "checkout.spec.ts",
+                  "line": 253,
+                  "column": 5
+                },
+                {
+                  "title": "deve reprovar o cr├®dito quando o score do CPF for menor ou igual a 500 no financiamento com entrada igual a 50%",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 60000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 4,
+                          "parallelIndex": 4,
+                          "status": "passed",
+                          "duration": 4377,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-04-29T01:33:50.479Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "trace",
+                              "contentType": "application/zip",
+                              "path": "C:\\automatizai\\velo\\test-results\\checkout-Checkout-Pagament-9fd1d-nto-com-entrada-igual-a-50--chromium\\trace.zip"
+                            }
+                          ]
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "25ab1bfc84c57e3e3a45-f1cb9f84440d96ce4d38",
+                  "file": "checkout.spec.ts",
+                  "line": 286,
+                  "column": 5
+                },
+                {
+                  "title": "deve aprovar o cr├®dito quando o score do CPF for menor ou igual a 500 no financiamento com entrada mair que 50%",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 60000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 5,
+                          "parallelIndex": 5,
+                          "status": "passed",
+                          "duration": 3573,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-04-29T01:33:53.695Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "trace",
+                              "contentType": "application/zip",
+                              "path": "C:\\automatizai\\velo\\test-results\\checkout-Checkout-Pagament-37178-to-com-entrada-mair-que-50--chromium\\trace.zip"
+                            }
+                          ]
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "25ab1bfc84c57e3e3a45-48dac040132d8202376b",
+                  "file": "checkout.spec.ts",
+                  "line": 319,
+                  "column": 5
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "configurator.spec.ts",
+      "file": "configurator.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Configura├º├úo do Ve├¡culo",
+          "file": "configurator.spec.ts",
+          "line": 2,
+          "column": 6,
+          "specs": [
+            {
+              "title": "deve atualizar a imagem e manter o pre├ºo base ao trocar a cor do ve├¡culo",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1183,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-04-29T01:33:54.263Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\automatizai\\velo\\test-results\\configurator-Configura├º├úo--5abbb--ao-trocar-a-cor-do-ve├¡culo-chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "a7ae57cb23f051584a21-b86d2eb2744d821bd191",
+              "file": "configurator.spec.ts",
+              "line": 8,
+              "column": 3
+            },
+            {
+              "title": "deve atualizar o pre├ºo e a imagem ao alterar as rodas, e restaurar os valores padr├úo",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 4,
+                      "status": "passed",
+                      "duration": 1346,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-04-29T01:33:55.600Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\automatizai\\velo\\test-results\\configurator-Configura├º├úo--a81d9-restaurar-os-valores-padr├úo-chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "a7ae57cb23f051584a21-aba52b4a5e302154f73f",
+              "file": "configurator.spec.ts",
+              "line": 16,
+              "column": 3
+            },
+            {
+              "title": "deve atualizar o pre├ºo com opcionais e persistir no checkout",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1659,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-04-29T01:33:55.621Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\automatizai\\velo\\test-results\\configurator-Configura├º├úo--16596-ais-e-persistir-no-checkout-chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "a7ae57cb23f051584a21-579cf1f650fa9dab09e7",
+              "file": "configurator.spec.ts",
+              "line": 27,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "online.spec.ts",
+      "file": "online.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "webapp deve estar online",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "parallelIndex": 4,
+                  "status": "passed",
+                  "duration": 1842,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-04-29T01:33:57.139Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\automatizai\\velo\\test-results\\online-webapp-deve-estar-online-chromium\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c766cdb09ab4d2155712-319635255e5042c515dd",
+          "file": "online.spec.ts",
+          "line": 2,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "pedidos.spec.ts",
+      "file": "pedidos.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Consulta de Pedido",
+          "file": "pedidos.spec.ts",
+          "line": 5,
+          "column": 6,
+          "specs": [
+            {
+              "title": "deve consultar um pedido aprovado",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2922,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-04-29T01:33:57.572Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\automatizai\\velo\\test-results\\pedidos-Consulta-de-Pedido-deve-consultar-um-pedido-aprovado-chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "712f7d7034e540e18df4-16195519aaa44f73dfe6",
+              "file": "pedidos.spec.ts",
+              "line": 11,
+              "column": 3
+            },
+            {
+              "title": "deve consultar um pedido reprovado",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 5,
+                      "status": "passed",
+                      "duration": 2765,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-04-29T01:33:58.130Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\automatizai\\velo\\test-results\\pedidos-Consulta-de-Pedido-bd90b-nsultar-um-pedido-reprovado-chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "712f7d7034e540e18df4-9c0407597e3d66d90341",
+              "file": "pedidos.spec.ts",
+              "line": 23,
+              "column": 3
+            },
+            {
+              "title": "deve consultar um pedido em analise",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 4,
+                      "status": "passed",
+                      "duration": 2852,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-04-29T01:33:59.810Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\automatizai\\velo\\test-results\\pedidos-Consulta-de-Pedido-9aed7-sultar-um-pedido-em-analise-chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "712f7d7034e540e18df4-dc622bed2462a9b394cd",
+              "file": "pedidos.spec.ts",
+              "line": 35,
+              "column": 3
+            },
+            {
+              "title": "deve exibir mensagem quando o pedido n├úo ├® encontrado",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 2010,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-04-29T01:34:03.271Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\automatizai\\velo\\test-results\\pedidos-Consulta-de-Pedido-af3ba-o-o-pedido-n├úo-├®-encontrado-chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "712f7d7034e540e18df4-9b33b91c697466abb9b6",
+              "file": "pedidos.spec.ts",
+              "line": 47,
+              "column": 3
+            },
+            {
+              "title": "deve exibir mensagem quando o c├│digo do pedido est├í fora do padr├úo",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 2360,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-04-29T01:34:03.627Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\automatizai\\velo\\test-results\\pedidos-Consulta-de-Pedido-2808c--pedido-est├í-fora-do-padr├úo-chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "712f7d7034e540e18df4-4303906939cf5edeceeb",
+              "file": "pedidos.spec.ts",
+              "line": 54,
+              "column": 3
+            },
+            {
+              "title": "deve manter o bot├úo de busca desabilitado com campo vazio ou apenas espa├ºos",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 60000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1589,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-04-29T01:34:01.402Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\automatizai\\velo\\test-results\\pedidos-Consulta-de-Pedido-4eb7b-mpo-vazio-ou-apenas-espa├ºos-chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "712f7d7034e540e18df4-a3b73821f8c8a4d8c086",
+              "file": "pedidos.spec.ts",
+              "line": 61,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-04-29T01:33:43.635Z",
+    "duration": 23156.101,
+    "expected": 19,
+    "skipped": 0,
+    "unexpected": 3,
+    "flaky": 0
+  }
+}

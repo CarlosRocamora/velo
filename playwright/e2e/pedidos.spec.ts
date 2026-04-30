@@ -1,6 +1,6 @@
 import { test, expect } from '../support/fixtures'
 import { generateOrderCode } from '../support/helpers'
-import type { OrderDetails } from '../support/actions/orderLockupActions'
+import type { OrderDetails } from '../support/actions/orderLookupActions'
 import { insertOrder, deleteOrderByNumber } from '../support/database/orderRepository'
 
 import testData from '../support/fixtures/orders.json' with { type: 'json' }
@@ -12,9 +12,8 @@ test.describe('Consulta de Pedido', () => {
   })
 
   test('deve consultar um pedido aprovado', async ({ app }) => {
-    const order: OrderDetails = testData.aprovado as OrderDetails
+    const order: OrderDetails = { ...(testData.aprovado as OrderDetails), number: generateOrderCode() }
 
-    await deleteOrderByNumber(order.number)
     await insertOrder(order)
 
     await app.orderLookup.searchOrder(order.number)
@@ -23,9 +22,8 @@ test.describe('Consulta de Pedido', () => {
   })
 
   test('deve consultar um pedido reprovado', async ({ app }) => {
-    const order: OrderDetails = testData.reprovado as OrderDetails
+    const order: OrderDetails = { ...(testData.reprovado as OrderDetails), number: generateOrderCode() }
 
-    await deleteOrderByNumber(order.number)
     await insertOrder(order)
 
     await app.orderLookup.searchOrder(order.number)
@@ -34,9 +32,8 @@ test.describe('Consulta de Pedido', () => {
   })
 
   test('deve consultar um pedido em analise', async ({ app }) => {
-    const order: OrderDetails = testData.em_analise as OrderDetails
+    const order: OrderDetails = { ...(testData.em_analise as OrderDetails), number: generateOrderCode() }
 
-    await deleteOrderByNumber(order.number)
     await insertOrder(order)
 
     await app.orderLookup.searchOrder(order.number)

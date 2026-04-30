@@ -1,0 +1,55 @@
+--- FAIL: deve validar obrigatoriedade de todos os campos em branco ---
+--- FAIL: deve validar limite m├¡nimo de caracteres para Nome e Sobrenome ---
+--- FAIL: deve exibir erro para e-mail com formato inv├ílido ---
+--- FAIL: deve exibir erro para CPF inv├ílido ---
+--- FAIL: deve exigir o aceite dos termos ao finalizar com dados v├ílidos ---
+--- FAIL: deve criar um pedido com sucesso para pagamento ├á vista ---
+--- FAIL: deve aprovar automaticamente o cr├®dito quando o score do CPF for maior que 700 no financiamento ---
+--- FAIL: deve encaminhar para an├ílise de cr├®dito quando o score do CPF for entre 501 e 700 no financiamento ---
+Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+Locator: getByRole('heading', { name: 'Pedido em An├ílise!' })
+Expected: visible
+Timeout: 5000ms
+Error: element(s) not found
+
+Call log:
+[2m  - Expect "toBeVisible" with timeout 5000ms[22m
+[2m  - waiting for getByRole('heading', { name: 'Pedido em An├ílise!' })[22m
+
+--- FAIL: deve reprovar o cr├®dito quando o score do CPF for menor ou igual a 500 no financiamento sem entrada ---
+Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+Locator: getByRole('heading', { name: 'Pedido Reprovado!' })
+Expected: visible
+Timeout: 5000ms
+Error: element(s) not found
+
+Call log:
+[2m  - Expect "toBeVisible" with timeout 5000ms[22m
+[2m  - waiting for getByRole('heading', { name: 'Pedido Reprovado!' })[22m
+
+--- FAIL: deve reprovar o cr├®dito quando o score do CPF for menor ou igual a 500 no financiamento com entrada menor que 50% ---
+Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m([22m[2m)[22m failed
+
+Locator: getByRole('heading', { name: 'Pedido Reprovado!' })
+Expected: visible
+Timeout: 5000ms
+Error: element(s) not found
+
+Call log:
+[2m  - Expect "toBeVisible" with timeout 5000ms[22m
+[2m  - waiting for getByRole('heading', { name: 'Pedido Reprovado!' })[22m
+
+--- FAIL: deve reprovar o cr├®dito quando o score do CPF for menor ou igual a 500 no financiamento com entrada igual a 50% ---
+--- FAIL: deve aprovar o cr├®dito quando o score do CPF for menor ou igual a 500 no financiamento com entrada mair que 50% ---
+--- FAIL: deve atualizar a imagem e manter o pre├ºo base ao trocar a cor do ve├¡culo ---
+--- FAIL: deve atualizar o pre├ºo e a imagem ao alterar as rodas, e restaurar os valores padr├úo ---
+--- FAIL: deve atualizar o pre├ºo com opcionais e persistir no checkout ---
+--- FAIL: webapp deve estar online ---
+--- FAIL: deve consultar um pedido aprovado ---
+--- FAIL: deve consultar um pedido reprovado ---
+--- FAIL: deve consultar um pedido em analise ---
+--- FAIL: deve exibir mensagem quando o pedido n├úo ├® encontrado ---
+--- FAIL: deve exibir mensagem quando o c├│digo do pedido est├í fora do padr├úo ---
+--- FAIL: deve manter o bot├úo de busca desabilitado com campo vazio ou apenas espa├ºos ---

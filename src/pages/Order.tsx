@@ -175,7 +175,7 @@ const Order = () => {
             title: 'Erro',
             description: 'Falha ao consultar análise de crédito. Verifique seus dados ou tente mais tarde.',
             variant: 'destructive',
-            // @ts-ignore - data-testid para testes
+            // @ts-expect-error - data-testid para testes
             'data-testid': 'toast-error',
           });
           setIsSubmitting(false);
@@ -209,7 +209,7 @@ const Order = () => {
           title: 'Erro',
           description: 'Falha ao consultar análise de crédito. Verifique seus dados ou tente mais tarde.',
           variant: 'destructive',
-          // @ts-ignore - data-testid para testes
+          // @ts-expect-error - data-testid para testes
           'data-testid': 'toast-error',
         });
         setIsSubmitting(false);

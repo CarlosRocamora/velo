@@ -1,0 +1,359 @@
+﻿Ôùç injected env (4) from .env // tip: Ôîÿ custom filepath { path: '/custom/path/.env' }
+
+Running 22 tests using 6 workers
+
+Ôùç injected env (0) from .env // tip: Ôùê encrypted .env [www.dotenvx.com]
+Ôùç injected env (0) from .env // tip: Ôîÿ override existing { override: true }
+Ôùç injected env (0) from .env // tip: Ôîÿ multiple files { path: ['.env.local', '.env'] }
+Ôùç injected env (0) from .env // tip: Ôîÿ custom filepath { path: '/custom/path/.env' }
+Ôùç injected env (0) from .env // tip: Ôîÿ multiple files { path: ['.env.local', '.env'] }
+Ôùç injected env (0) from .env // tip: Ôîÿ override existing { override: true }
+  Ô£ô   3 [chromium] ÔÇ║ playwright\e2e\checkout.spec.ts:17:5 ÔÇ║ Checkout ÔÇ║ Valida├º├Áes de campos obrigat├│rios ÔÇ║ deve validar obrigatoriedade de todos os campos em branco (10.1s)
+  Ô£ô   2 [chromium] ÔÇ║ playwright\e2e\checkout.spec.ts:77:5 ÔÇ║ Checkout ÔÇ║ Valida├º├Áes de campos obrigat├│rios ÔÇ║ deve exibir erro para CPF inv├ílido (10.9s)
+  Ô£ô   4 [chromium] ÔÇ║ playwright\e2e\checkout.spec.ts:99:5 ÔÇ║ Checkout ÔÇ║ Valida├º├Áes de campos obrigat├│rios ÔÇ║ deve exigir o aceite dos termos ao finalizar com dados v├ílidos (11.5s)
+  Ô£ô   1 [chromium] ÔÇ║ playwright\e2e\checkout.spec.ts:32:5 ÔÇ║ Checkout ÔÇ║ Valida├º├Áes de campos obrigat├│rios ÔÇ║ deve validar limite m├¡nimo de caracteres para Nome e Sobrenome (11.6s)
+  Ô£ô   5 [chromium] ÔÇ║ playwright\e2e\checkout.spec.ts:55:5 ÔÇ║ Checkout ÔÇ║ Valida├º├Áes de campos obrigat├│rios ÔÇ║ deve exibir erro para e-mail com formato inv├ílido (11.6s)
+  Ô£ÿ   6 [chromium] ÔÇ║ playwright\e2e\checkout.spec.ts:128:5 ÔÇ║ Checkout ÔÇ║ Pagamento e Confirma├º├úo ÔÇ║ deve criar um pedido com sucesso para pagamento ├á vista (11.5s)
+  Ô£ÿ   7 [chromium] ÔÇ║ playwright\e2e\checkout.spec.ts:159:5 ÔÇ║ Checkout ÔÇ║ Pagamento e Confirma├º├úo ÔÇ║ deve aprovar automaticamente o cr├®dito quando o score do CPF for maior que 700 no financiamento (2.8s)
+  Ô£ÿ   8 [chromium] ÔÇ║ playwright\e2e\checkout.spec.ts:191:5 ÔÇ║ Checkout ÔÇ║ Pagamento e Confirma├º├úo ÔÇ║ deve encaminhar para an├ílise de cr├®dito quando o score do CPF for entre 501 e 700 no financiamento (2.9s)
+  Ô£ÿ  11 [chromium] ÔÇ║ playwright\e2e\checkout.spec.ts:286:5 ÔÇ║ Checkout ÔÇ║ Pagamento e Confirma├º├úo ÔÇ║ deve reprovar o cr├®dito quando o score do CPF for menor ou igual a 500 no financiamento com entrada igual a 50% (2.7s)
+  Ô£ÿ  10 [chromium] ÔÇ║ playwright\e2e\checkout.spec.ts:253:5 ÔÇ║ Checkout ÔÇ║ Pagamento e Confirma├º├úo ÔÇ║ deve reprovar o cr├®dito quando o score do CPF for menor ou igual a 500 no financiamento com entrada menor que 50% (2.7s)
+  Ô£ÿ   9 [chromium] ÔÇ║ playwright\e2e\checkout.spec.ts:222:5 ÔÇ║ Checkout ÔÇ║ Pagamento e Confirma├º├úo ÔÇ║ deve reprovar o cr├®dito quando o score do CPF for menor ou igual a 500 no financiamento sem entrada (3.0s)
+Ôùç injected env (0) from .env // tip: Ôîÿ suppress logs { quiet: true }
+Ôùç injected env (0) from .env // tip: Ôîÿ custom filepath { path: '/custom/path/.env' }
+Ôùç injected env (0) from .env // tip: Ôîÿ override existing { override: true }
+Ôùç injected env (0) from .env // tip: Ôîÿ enable debugging { debug: true }
+Ôùç injected env (0) from .env // tip: Ôîÿ suppress logs { quiet: true }
+Ôùç injected env (0) from .env // tip: Ôîÿ custom filepath { path: '/custom/path/.env' }
+  Ô£ô  12 [chromium] ÔÇ║ playwright\e2e\configurator.spec.ts:8:3 ÔÇ║ Configura├º├úo do Ve├¡culo ÔÇ║ deve atualizar a imagem e manter o pre├ºo base ao trocar a cor do ve├¡culo (1.9s)
+  Ô£ô  14 [chromium] ÔÇ║ playwright\e2e\configurator.spec.ts:16:3 ÔÇ║ Configura├º├úo do Ve├¡culo ÔÇ║ deve atualizar o pre├ºo e a imagem ao alterar as rodas, e restaurar os valores padr├úo (1.8s)
+  Ô£ÿ  13 [chromium] ÔÇ║ playwright\e2e\checkout.spec.ts:319:5 ÔÇ║ Checkout ÔÇ║ Pagamento e Confirma├º├úo ÔÇ║ deve aprovar o cr├®dito quando o score do CPF for menor ou igual a 500 no financiamento com entrada mair que 50% (2.7s)
+  Ô£ô  16 [chromium] ÔÇ║ playwright\e2e\configurator.spec.ts:27:3 ÔÇ║ Configura├º├úo do Ve├¡culo ÔÇ║ deve atualizar o pre├ºo com opcionais e persistir no checkout (2.3s)
+  Ô£ô  15 [chromium] ÔÇ║ playwright\e2e\online.spec.ts:2:1 ÔÇ║ webapp deve estar online (2.0s)
+Ôùç injected env (0) from .env // tip: Ôîÿ override existing { override: true }
+  Ô£ÿ  18 [chromium] ÔÇ║ playwright\e2e\pedidos.spec.ts:21:3 ÔÇ║ Consulta de Pedido ÔÇ║ deve consultar um pedido reprovado (2.4s)
+  Ô£ÿ  17 [chromium] ÔÇ║ playwright\e2e\pedidos.spec.ts:11:3 ÔÇ║ Consulta de Pedido ÔÇ║ deve consultar um pedido aprovado (2.5s)
+  Ô£ÿ  19 [chromium] ÔÇ║ playwright\e2e\pedidos.spec.ts:31:3 ÔÇ║ Consulta de Pedido ÔÇ║ deve consultar um pedido em analise (2.4s)
+  Ô£ô  20 [chromium] ÔÇ║ playwright\e2e\pedidos.spec.ts:55:3 ÔÇ║ Consulta de Pedido ÔÇ║ deve manter o bot├úo de busca desabilitado com campo vazio ou apenas espa├ºos (1.9s)
+  Ô£ô  21 [chromium] ÔÇ║ playwright\e2e\pedidos.spec.ts:48:3 ÔÇ║ Consulta de Pedido ÔÇ║ deve exibir mensagem quando o c├│digo do pedido est├í fora do padr├úo (3.8s)
+  Ô£ô  22 [chromium] ÔÇ║ playwright\e2e\pedidos.spec.ts:41:3 ÔÇ║ Consulta de Pedido ÔÇ║ deve exibir mensagem quando o pedido n├úo ├® encontrado (2.5s)
+
+
+  1) [chromium] ÔÇ║ playwright\e2e\checkout.spec.ts:128:5 ÔÇ║ Checkout ÔÇ║ Pagamento e Confirma├º├úo ÔÇ║ deve criar um pedido com sucesso para pagamento ├á vista 
+
+    error: (ENOTFOUND) tenant/user postgres.jzwyjnspmzuycvpfoyof not found
+
+       at ..\support\database\orderRepository.ts:45
+
+      43 |
+      44 | export async function deleteOrderByEmail(email: string) {
+    > 45 |   await db.deleteFrom('orders').where('customer_email', '=', email).execute()
+         |   ^
+      46 | }
+        at C:\automatizai\velo\node_modules\pg-pool\index.js:45:11
+        at PostgresDriver.acquireConnection (C:\automatizai\velo\node_modules\kysely\dist\esm\dialect\postgres\postgres-driver.js:21:24)
+        at RuntimeDriver.acquireConnection (C:\automatizai\velo\node_modules\kysely\dist\esm\driver\runtime-driver.js:44:28)
+        at DefaultConnectionProvider.provideConnection (C:\automatizai\velo\node_modules\kysely\dist\esm\driver\default-connection-provider.js:8:28)
+        at DefaultQueryExecutor.executeQuery (C:\automatizai\velo\node_modules\kysely\dist\esm\query-executor\query-executor-base.js:34:16)
+        at DeleteQueryBuilder.execute (C:\automatizai\velo\node_modules\kysely\dist\esm\query-builder\delete-query-builder.js:453:24)
+        at deleteOrderByEmail (C:\automatizai\velo\playwright\support\database\orderRepository.ts:45:3)
+        at C:\automatizai\velo\playwright\e2e\checkout.spec.ts:145:7
+
+    Error Context: test-results\checkout-Checkout-Pagament-30f70-esso-para-pagamento-├á-vista-chromium\error-context.md
+
+    attachment #2: trace (application/zip) ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇ
+    test-results\checkout-Checkout-Pagament-30f70-esso-para-pagamento-├á-vista-chromium\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\checkout-Checkout-Pagament-30f70-esso-para-pagamento-├á-vista-chromium\trace.zip
+
+    ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇ
+
+  2) [chromium] ÔÇ║ playwright\e2e\checkout.spec.ts:159:5 ÔÇ║ Checkout ÔÇ║ Pagamento e Confirma├º├úo ÔÇ║ deve aprovar automaticamente o cr├®dito quando o score do CPF for maior que 700 no financiamento 
+
+    error: (ENOTFOUND) tenant/user postgres.jzwyjnspmzuycvpfoyof not found
+
+       at ..\support\database\orderRepository.ts:45
+
+      43 |
+      44 | export async function deleteOrderByEmail(email: string) {
+    > 45 |   await db.deleteFrom('orders').where('customer_email', '=', email).execute()
+         |   ^
+      46 | }
+        at C:\automatizai\velo\node_modules\pg-pool\index.js:45:11
+        at PostgresDriver.acquireConnection (C:\automatizai\velo\node_modules\kysely\dist\esm\dialect\postgres\postgres-driver.js:21:24)
+        at RuntimeDriver.acquireConnection (C:\automatizai\velo\node_modules\kysely\dist\esm\driver\runtime-driver.js:44:28)
+        at DefaultConnectionProvider.provideConnection (C:\automatizai\velo\node_modules\kysely\dist\esm\driver\default-connection-provider.js:8:28)
+        at DefaultQueryExecutor.executeQuery (C:\automatizai\velo\node_modules\kysely\dist\esm\query-executor\query-executor-base.js:34:16)
+        at DeleteQueryBuilder.execute (C:\automatizai\velo\node_modules\kysely\dist\esm\query-builder\delete-query-builder.js:453:24)
+        at deleteOrderByEmail (C:\automatizai\velo\playwright\support\database\orderRepository.ts:45:3)
+        at C:\automatizai\velo\playwright\e2e\checkout.spec.ts:178:7
+
+    Error Context: test-results\checkout-Checkout-Pagament-cc71d-or-que-700-no-financiamento-chromium\error-context.md
+
+    attachment #2: trace (application/zip) ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇ
+    test-results\checkout-Checkout-Pagament-cc71d-or-que-700-no-financiamento-chromium\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\checkout-Checkout-Pagament-cc71d-or-que-700-no-financiamento-chromium\trace.zip
+
+    ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇ
+
+  3) [chromium] ÔÇ║ playwright\e2e\checkout.spec.ts:191:5 ÔÇ║ Checkout ÔÇ║ Pagamento e Confirma├º├úo ÔÇ║ deve encaminhar para an├ílise de cr├®dito quando o score do CPF for entre 501 e 700 no financiamento 
+
+    error: (ENOTFOUND) tenant/user postgres.jzwyjnspmzuycvpfoyof not found
+
+       at ..\support\database\orderRepository.ts:45
+
+      43 |
+      44 | export async function deleteOrderByEmail(email: string) {
+    > 45 |   await db.deleteFrom('orders').where('customer_email', '=', email).execute()
+         |   ^
+      46 | }
+        at C:\automatizai\velo\node_modules\pg-pool\index.js:45:11
+        at PostgresDriver.acquireConnection (C:\automatizai\velo\node_modules\kysely\dist\esm\dialect\postgres\postgres-driver.js:21:24)
+        at RuntimeDriver.acquireConnection (C:\automatizai\velo\node_modules\kysely\dist\esm\driver\runtime-driver.js:44:28)
+        at DefaultConnectionProvider.provideConnection (C:\automatizai\velo\node_modules\kysely\dist\esm\driver\default-connection-provider.js:8:28)
+        at DefaultQueryExecutor.executeQuery (C:\automatizai\velo\node_modules\kysely\dist\esm\query-executor\query-executor-base.js:34:16)
+        at DeleteQueryBuilder.execute (C:\automatizai\velo\node_modules\kysely\dist\esm\query-builder\delete-query-builder.js:453:24)
+        at deleteOrderByEmail (C:\automatizai\velo\playwright\support\database\orderRepository.ts:45:3)
+        at C:\automatizai\velo\playwright\e2e\checkout.spec.ts:213:7
+
+    Error Context: test-results\checkout-Checkout-Pagament-e6321--501-e-700-no-financiamento-chromium\error-context.md
+
+    attachment #2: trace (application/zip) ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇ
+    test-results\checkout-Checkout-Pagament-e6321--501-e-700-no-financiamento-chromium\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\checkout-Checkout-Pagament-e6321--501-e-700-no-financiamento-chromium\trace.zip
+
+    ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇ
+
+  4) [chromium] ÔÇ║ playwright\e2e\checkout.spec.ts:222:5 ÔÇ║ Checkout ÔÇ║ Pagamento e Confirma├º├úo ÔÇ║ deve reprovar o cr├®dito quando o score do CPF for menor ou igual a 500 no financiamento sem entrada 
+
+    error: (ENOTFOUND) tenant/user postgres.jzwyjnspmzuycvpfoyof not found
+
+       at ..\support\database\orderRepository.ts:45
+
+      43 |
+      44 | export async function deleteOrderByEmail(email: string) {
+    > 45 |   await db.deleteFrom('orders').where('customer_email', '=', email).execute()
+         |   ^
+      46 | }
+        at C:\automatizai\velo\node_modules\pg-pool\index.js:45:11
+        at PostgresDriver.acquireConnection (C:\automatizai\velo\node_modules\kysely\dist\esm\dialect\postgres\postgres-driver.js:21:24)
+        at RuntimeDriver.acquireConnection (C:\automatizai\velo\node_modules\kysely\dist\esm\driver\runtime-driver.js:44:28)
+        at DefaultConnectionProvider.provideConnection (C:\automatizai\velo\node_modules\kysely\dist\esm\driver\default-connection-provider.js:8:28)
+        at DefaultQueryExecutor.executeQuery (C:\automatizai\velo\node_modules\kysely\dist\esm\query-executor\query-executor-base.js:34:16)
+        at DeleteQueryBuilder.execute (C:\automatizai\velo\node_modules\kysely\dist\esm\query-builder\delete-query-builder.js:453:24)
+        at deleteOrderByEmail (C:\automatizai\velo\playwright\support\database\orderRepository.ts:45:3)
+        at C:\automatizai\velo\playwright\e2e\checkout.spec.ts:247:7
+
+    Error Context: test-results\checkout-Checkout-Pagament-7c8d3-o-financiamento-sem-entrada-chromium\error-context.md
+
+    attachment #2: trace (application/zip) ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇ
+    test-results\checkout-Checkout-Pagament-7c8d3-o-financiamento-sem-entrada-chromium\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\checkout-Checkout-Pagament-7c8d3-o-financiamento-sem-entrada-chromium\trace.zip
+
+    ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇ
+
+  5) [chromium] ÔÇ║ playwright\e2e\checkout.spec.ts:253:5 ÔÇ║ Checkout ÔÇ║ Pagamento e Confirma├º├úo ÔÇ║ deve reprovar o cr├®dito quando o score do CPF for menor ou igual a 500 no financiamento com entrada menor que 50% 
+
+    error: (ENOTFOUND) tenant/user postgres.jzwyjnspmzuycvpfoyof not found
+
+       at ..\support\database\orderRepository.ts:45
+
+      43 |
+      44 | export async function deleteOrderByEmail(email: string) {
+    > 45 |   await db.deleteFrom('orders').where('customer_email', '=', email).execute()
+         |   ^
+      46 | }
+        at C:\automatizai\velo\node_modules\pg-pool\index.js:45:11
+        at PostgresDriver.acquireConnection (C:\automatizai\velo\node_modules\kysely\dist\esm\dialect\postgres\postgres-driver.js:21:24)
+        at RuntimeDriver.acquireConnection (C:\automatizai\velo\node_modules\kysely\dist\esm\driver\runtime-driver.js:44:28)
+        at DefaultConnectionProvider.provideConnection (C:\automatizai\velo\node_modules\kysely\dist\esm\driver\default-connection-provider.js:8:28)
+        at DefaultQueryExecutor.executeQuery (C:\automatizai\velo\node_modules\kysely\dist\esm\query-executor\query-executor-base.js:34:16)
+        at DeleteQueryBuilder.execute (C:\automatizai\velo\node_modules\kysely\dist\esm\query-builder\delete-query-builder.js:453:24)
+        at deleteOrderByEmail (C:\automatizai\velo\playwright\support\database\orderRepository.ts:45:3)
+        at C:\automatizai\velo\playwright\e2e\checkout.spec.ts:282:7
+
+    Error Context: test-results\checkout-Checkout-Pagament-e487f-o-com-entrada-menor-que-50--chromium\error-context.md
+
+    attachment #2: trace (application/zip) ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇ
+    test-results\checkout-Checkout-Pagament-e487f-o-com-entrada-menor-que-50--chromium\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\checkout-Checkout-Pagament-e487f-o-com-entrada-menor-que-50--chromium\trace.zip
+
+    ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇ
+
+  6) [chromium] ÔÇ║ playwright\e2e\checkout.spec.ts:286:5 ÔÇ║ Checkout ÔÇ║ Pagamento e Confirma├º├úo ÔÇ║ deve reprovar o cr├®dito quando o score do CPF for menor ou igual a 500 no financiamento com entrada igual a 50% 
+
+    error: (ENOTFOUND) tenant/user postgres.jzwyjnspmzuycvpfoyof not found
+
+       at ..\support\database\orderRepository.ts:45
+
+      43 |
+      44 | export async function deleteOrderByEmail(email: string) {
+    > 45 |   await db.deleteFrom('orders').where('customer_email', '=', email).execute()
+         |   ^
+      46 | }
+        at C:\automatizai\velo\node_modules\pg-pool\index.js:45:11
+        at PostgresDriver.acquireConnection (C:\automatizai\velo\node_modules\kysely\dist\esm\dialect\postgres\postgres-driver.js:21:24)
+        at RuntimeDriver.acquireConnection (C:\automatizai\velo\node_modules\kysely\dist\esm\driver\runtime-driver.js:44:28)
+        at DefaultConnectionProvider.provideConnection (C:\automatizai\velo\node_modules\kysely\dist\esm\driver\default-connection-provider.js:8:28)
+        at DefaultQueryExecutor.executeQuery (C:\automatizai\velo\node_modules\kysely\dist\esm\query-executor\query-executor-base.js:34:16)
+        at DeleteQueryBuilder.execute (C:\automatizai\velo\node_modules\kysely\dist\esm\query-builder\delete-query-builder.js:453:24)
+        at deleteOrderByEmail (C:\automatizai\velo\playwright\support\database\orderRepository.ts:45:3)
+        at C:\automatizai\velo\playwright\e2e\checkout.spec.ts:318:7
+
+    Error Context: test-results\checkout-Checkout-Pagament-9fd1d-nto-com-entrada-igual-a-50--chromium\error-context.md
+
+    attachment #2: trace (application/zip) ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇ
+    test-results\checkout-Checkout-Pagament-9fd1d-nto-com-entrada-igual-a-50--chromium\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\checkout-Checkout-Pagament-9fd1d-nto-com-entrada-igual-a-50--chromium\trace.zip
+
+    ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇ
+
+  7) [chromium] ÔÇ║ playwright\e2e\checkout.spec.ts:319:5 ÔÇ║ Checkout ÔÇ║ Pagamento e Confirma├º├úo ÔÇ║ deve aprovar o cr├®dito quando o score do CPF for menor ou igual a 500 no financiamento com entrada mair que 50% 
+
+    error: (ENOTFOUND) tenant/user postgres.jzwyjnspmzuycvpfoyof not found
+
+       at ..\support\database\orderRepository.ts:45
+
+      43 |
+      44 | export async function deleteOrderByEmail(email: string) {
+    > 45 |   await db.deleteFrom('orders').where('customer_email', '=', email).execute()
+         |   ^
+      46 | }
+        at C:\automatizai\velo\node_modules\pg-pool\index.js:45:11
+        at PostgresDriver.acquireConnection (C:\automatizai\velo\node_modules\kysely\dist\esm\dialect\postgres\postgres-driver.js:21:24)
+        at RuntimeDriver.acquireConnection (C:\automatizai\velo\node_modules\kysely\dist\esm\driver\runtime-driver.js:44:28)
+        at DefaultConnectionProvider.provideConnection (C:\automatizai\velo\node_modules\kysely\dist\esm\driver\default-connection-provider.js:8:28)
+        at DefaultQueryExecutor.executeQuery (C:\automatizai\velo\node_modules\kysely\dist\esm\query-executor\query-executor-base.js:34:16)
+        at DeleteQueryBuilder.execute (C:\automatizai\velo\node_modules\kysely\dist\esm\query-builder\delete-query-builder.js:453:24)
+        at deleteOrderByEmail (C:\automatizai\velo\playwright\support\database\orderRepository.ts:45:3)
+        at C:\automatizai\velo\playwright\e2e\checkout.spec.ts:354:7
+
+    Error Context: test-results\checkout-Checkout-Pagament-37178-to-com-entrada-mair-que-50--chromium\error-context.md
+
+    attachment #2: trace (application/zip) ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇ
+    test-results\checkout-Checkout-Pagament-37178-to-com-entrada-mair-que-50--chromium\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\checkout-Checkout-Pagament-37178-to-com-entrada-mair-que-50--chromium\trace.zip
+
+    ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇ
+
+  8) [chromium] ÔÇ║ playwright\e2e\pedidos.spec.ts:11:3 ÔÇ║ Consulta de Pedido ÔÇ║ deve consultar um pedido aprovado 
+
+    error: (ENOTFOUND) tenant/user postgres.jzwyjnspmzuycvpfoyof not found
+
+       at ..\support\database\orderRepository.ts:41
+
+      39 |
+      40 | export async function deleteOrderByNumber(orderNumber: string) {
+    > 41 |   await db.deleteFrom('orders').where('order_number', '=', orderNumber).execute()
+         |   ^
+      42 | }
+      43 |
+      44 | export async function deleteOrderByEmail(email: string) {
+        at C:\automatizai\velo\node_modules\pg-pool\index.js:45:11
+        at PostgresDriver.acquireConnection (C:\automatizai\velo\node_modules\kysely\dist\esm\dialect\postgres\postgres-driver.js:21:24)
+        at RuntimeDriver.acquireConnection (C:\automatizai\velo\node_modules\kysely\dist\esm\driver\runtime-driver.js:44:28)
+        at DefaultConnectionProvider.provideConnection (C:\automatizai\velo\node_modules\kysely\dist\esm\driver\default-connection-provider.js:8:28)
+        at DefaultQueryExecutor.executeQuery (C:\automatizai\velo\node_modules\kysely\dist\esm\query-executor\query-executor-base.js:34:16)
+        at DeleteQueryBuilder.execute (C:\automatizai\velo\node_modules\kysely\dist\esm\query-builder\delete-query-builder.js:453:24)
+        at deleteOrderByNumber (C:\automatizai\velo\playwright\support\database\orderRepository.ts:41:3)
+        at C:\automatizai\velo\playwright\e2e\pedidos.spec.ts:17:5
+
+    Error Context: test-results\pedidos-Consulta-de-Pedido-deve-consultar-um-pedido-aprovado-chromium\error-context.md
+
+    attachment #2: trace (application/zip) ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇ
+    test-results\pedidos-Consulta-de-Pedido-deve-consultar-um-pedido-aprovado-chromium\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\pedidos-Consulta-de-Pedido-deve-consultar-um-pedido-aprovado-chromium\trace.zip
+
+    ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇ
+
+  9) [chromium] ÔÇ║ playwright\e2e\pedidos.spec.ts:21:3 ÔÇ║ Consulta de Pedido ÔÇ║ deve consultar um pedido reprovado 
+
+    error: (ENOTFOUND) tenant/user postgres.jzwyjnspmzuycvpfoyof not found
+
+       at ..\support\database\orderRepository.ts:41
+
+      39 |
+      40 | export async function deleteOrderByNumber(orderNumber: string) {
+    > 41 |   await db.deleteFrom('orders').where('order_number', '=', orderNumber).execute()
+         |   ^
+      42 | }
+      43 |
+      44 | export async function deleteOrderByEmail(email: string) {
+        at C:\automatizai\velo\node_modules\pg-pool\index.js:45:11
+        at PostgresDriver.acquireConnection (C:\automatizai\velo\node_modules\kysely\dist\esm\dialect\postgres\postgres-driver.js:21:24)
+        at RuntimeDriver.acquireConnection (C:\automatizai\velo\node_modules\kysely\dist\esm\driver\runtime-driver.js:44:28)
+        at DefaultConnectionProvider.provideConnection (C:\automatizai\velo\node_modules\kysely\dist\esm\driver\default-connection-provider.js:8:28)
+        at DefaultQueryExecutor.executeQuery (C:\automatizai\velo\node_modules\kysely\dist\esm\query-executor\query-executor-base.js:34:16)
+        at DeleteQueryBuilder.execute (C:\automatizai\velo\node_modules\kysely\dist\esm\query-builder\delete-query-builder.js:453:24)
+        at deleteOrderByNumber (C:\automatizai\velo\playwright\support\database\orderRepository.ts:41:3)
+        at C:\automatizai\velo\playwright\e2e\pedidos.spec.ts:28:5
+
+    Error Context: test-results\pedidos-Consulta-de-Pedido-bd90b-nsultar-um-pedido-reprovado-chromium\error-context.md
+
+    attachment #2: trace (application/zip) ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇ
+    test-results\pedidos-Consulta-de-Pedido-bd90b-nsultar-um-pedido-reprovado-chromium\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\pedidos-Consulta-de-Pedido-bd90b-nsultar-um-pedido-reprovado-chromium\trace.zip
+
+    ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇ
+
+  10) [chromium] ÔÇ║ playwright\e2e\pedidos.spec.ts:31:3 ÔÇ║ Consulta de Pedido ÔÇ║ deve consultar um pedido em analise 
+
+    error: (ENOTFOUND) tenant/user postgres.jzwyjnspmzuycvpfoyof not found
+
+       at ..\support\database\orderRepository.ts:41
+
+      39 |
+      40 | export async function deleteOrderByNumber(orderNumber: string) {
+    > 41 |   await db.deleteFrom('orders').where('order_number', '=', orderNumber).execute()
+         |   ^
+      42 | }
+      43 |
+      44 | export async function deleteOrderByEmail(email: string) {
+        at C:\automatizai\velo\node_modules\pg-pool\index.js:45:11
+        at PostgresDriver.acquireConnection (C:\automatizai\velo\node_modules\kysely\dist\esm\dialect\postgres\postgres-driver.js:21:24)
+        at RuntimeDriver.acquireConnection (C:\automatizai\velo\node_modules\kysely\dist\esm\driver\runtime-driver.js:44:28)
+        at DefaultConnectionProvider.provideConnection (C:\automatizai\velo\node_modules\kysely\dist\esm\driver\default-connection-provider.js:8:28)
+        at DefaultQueryExecutor.executeQuery (C:\automatizai\velo\node_modules\kysely\dist\esm\query-executor\query-executor-base.js:34:16)
+        at DeleteQueryBuilder.execute (C:\automatizai\velo\node_modules\kysely\dist\esm\query-builder\delete-query-builder.js:453:24)
+        at deleteOrderByNumber (C:\automatizai\velo\playwright\support\database\orderRepository.ts:41:3)
+        at C:\automatizai\velo\playwright\e2e\pedidos.spec.ts:39:5
+
+    Error Context: test-results\pedidos-Consulta-de-Pedido-9aed7-sultar-um-pedido-em-analise-chromium\error-context.md
+
+    attachment #2: trace (application/zip) ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇ
+    test-results\pedidos-Consulta-de-Pedido-9aed7-sultar-um-pedido-em-analise-chromium\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\pedidos-Consulta-de-Pedido-9aed7-sultar-um-pedido-em-analise-chromium\trace.zip
+
+    ÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇÔöÇ
+
+  10 failed
+    [chromium] ÔÇ║ playwright\e2e\checkout.spec.ts:128:5 ÔÇ║ Checkout ÔÇ║ Pagamento e Confirma├º├úo ÔÇ║ deve criar um pedido com sucesso para pagamento ├á vista 
+    [chromium] ÔÇ║ playwright\e2e\checkout.spec.ts:159:5 ÔÇ║ Checkout ÔÇ║ Pagamento e Confirma├º├úo ÔÇ║ deve aprovar automaticamente o cr├®dito quando o score do CPF for maior que 700 no financiamento 
+    [chromium] ÔÇ║ playwright\e2e\checkout.spec.ts:191:5 ÔÇ║ Checkout ÔÇ║ Pagamento e Confirma├º├úo ÔÇ║ deve encaminhar para an├ílise de cr├®dito quando o score do CPF for entre 501 e 700 no financiamento 
+    [chromium] ÔÇ║ playwright\e2e\checkout.spec.ts:222:5 ÔÇ║ Checkout ÔÇ║ Pagamento e Confirma├º├úo ÔÇ║ deve reprovar o cr├®dito quando o score do CPF for menor ou igual a 500 no financiamento sem entrada 
+    [chromium] ÔÇ║ playwright\e2e\checkout.spec.ts:253:5 ÔÇ║ Checkout ÔÇ║ Pagamento e Confirma├º├úo ÔÇ║ deve reprovar o cr├®dito quando o score do CPF for menor ou igual a 500 no financiamento com entrada menor que 50% 
+    [chromium] ÔÇ║ playwright\e2e\checkout.spec.ts:286:5 ÔÇ║ Checkout ÔÇ║ Pagamento e Confirma├º├úo ÔÇ║ deve reprovar o cr├®dito quando o score do CPF for menor ou igual a 500 no financiamento com entrada igual a 50% 
+    [chromium] ÔÇ║ playwright\e2e\checkout.spec.ts:319:5 ÔÇ║ Checkout ÔÇ║ Pagamento e Confirma├º├úo ÔÇ║ deve aprovar o cr├®dito quando o score do CPF for menor ou igual a 500 no financiamento com entrada mair que 50% 
+    [chromium] ÔÇ║ playwright\e2e\pedidos.spec.ts:11:3 ÔÇ║ Consulta de Pedido ÔÇ║ deve consultar um pedido aprovado 
+    [chromium] ÔÇ║ playwright\e2e\pedidos.spec.ts:21:3 ÔÇ║ Consulta de Pedido ÔÇ║ deve consultar um pedido reprovado 
+    [chromium] ÔÇ║ playwright\e2e\pedidos.spec.ts:31:3 ÔÇ║ Consulta de Pedido ÔÇ║ deve consultar um pedido em analise 
+  12 passed (34.1s)

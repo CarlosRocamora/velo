@@ -1,9 +1,10 @@
-import { db } from './database'
-import { OrderTable } from './schema'
-
-import { OrderDetails } from '../actions/orderLockupActions'
-
+import { createClient } from '@supabase/supabase-js'
+import { OrderDetails } from '../actions/orderLookupActions'
 import crypto from 'crypto'
+
+const SUPABASE_URL = process.env.VITE_SUPABASE_URL || ''
+const SUPABASE_KEY = process.env.VITE_SUPABASE_PUBLISHABLE_KEY || ''
+export const supabase = createClient(SUPABASE_URL, SUPABASE_KEY)
 
 export function normalizeValue(value: string) {
   if (!value) return '';
@@ -17,7 +18,7 @@ export function normalizeValue(value: string) {
 
 export async function insertOrder(order: OrderDetails) {
 
-  const data: OrderTable = {
+  const data = {
     id: crypto.randomUUID(),
     order_number: order.number,
     color: order.color.toLowerCase().replace(' ', '-'),
@@ -33,14 +34,15 @@ export async function insertOrder(order: OrderDetails) {
     updated_at: new Date().toISOString(),
     optionals: [],
   }
-  // If the record exists it might throw a duplicate error, but we manage teardown.
-  await db.insertInto('orders').values(data).execute()
+  
+  const { error } = await supabase.from('orders').insert(data)
+  if (error) console.error('insertOrder error:', error)
 }
 
 export async function deleteOrderByNumber(orderNumber: string) {
-  await db.deleteFrom('orders').where('order_number', '=', orderNumber).execute()
+  await supabase.from('orders').delete().eq('order_number', orderNumber)
 }
 
 export async function deleteOrderByEmail(email: string) {
-  await db.deleteFrom('orders').where('customer_email', '=', email).execute()
+  await supabase.from('orders').delete().eq('customer_email', email)
 }

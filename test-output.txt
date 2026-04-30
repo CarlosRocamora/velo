@@ -1,0 +1,16 @@
+﻿Ôùç injected env (4) from .env // tip: Ôîÿ override existing { override: true }
+Error: Cannot find module 'C:\automatizai\velo\playwright\support\actions\orderLookupActions' imported from C:\automatizai\velo\playwright\support\fixtures.ts
+
+Error: Cannot find module 'C:\automatizai\velo\playwright\support\actions\orderLookupActions' imported from C:\automatizai\velo\playwright\support\fixtures.ts
+
+Error: Cannot find module 'C:\automatizai\velo\playwright\support\actions\orderLookupActions' imported from C:\automatizai\velo\playwright\support\fixtures.ts
+
+Error: Cannot find module 'C:\automatizai\velo\playwright\support\actions\orderLookupActions' imported from C:\automatizai\velo\playwright\support\fixtures.ts
+
+Error: No tests found
+
+[1A[2K
+To open last HTML report run:
+[36m[39m
+[36m  npx playwright show-report[39m
+[36m[39m
