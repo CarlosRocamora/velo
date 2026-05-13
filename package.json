@@ -8,7 +8,9 @@
     "build": "vite build",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test:e2e": "cross-env NODE_OPTIONS=--use-system-ca playwright test",
+    "test:e2e:ui": "cross-env NODE_OPTIONS=--use-system-ca playwright test --ui"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
@@ -80,6 +82,7 @@
     "@types/react-dom": "^18.3.7",
     "@vitejs/plugin-react-swc": "^3.11.0",
     "autoprefixer": "^10.4.21",
+    "cross-env": "^10.1.0",
     "dotenv": "^17.3.1",
     "eslint": "^9.32.0",
     "eslint-plugin-react-hooks": "^5.2.0",

@@ -12,8 +12,9 @@ test.describe('Consulta de Pedido', () => {
   })
 
   test('deve consultar um pedido aprovado', async ({ app }) => {
-    const order: OrderDetails = { ...(testData.aprovado as OrderDetails), number: generateOrderCode() }
+    const order: OrderDetails = testData.aprovado as OrderDetails
 
+    await deleteOrderByNumber(order.number)
     await insertOrder(order)
 
     await app.orderLookup.searchOrder(order.number)
@@ -22,8 +23,9 @@ test.describe('Consulta de Pedido', () => {
   })
 
   test('deve consultar um pedido reprovado', async ({ app }) => {
-    const order: OrderDetails = { ...(testData.reprovado as OrderDetails), number: generateOrderCode() }
+    const order: OrderDetails = testData.reprovado as OrderDetails
 
+    await deleteOrderByNumber(order.number)
     await insertOrder(order)
 
     await app.orderLookup.searchOrder(order.number)
@@ -32,8 +34,9 @@ test.describe('Consulta de Pedido', () => {
   })
 
   test('deve consultar um pedido em analise', async ({ app }) => {
-    const order: OrderDetails = { ...(testData.em_analise as OrderDetails), number: generateOrderCode() }
+    const order: OrderDetails = testData.em_analise as OrderDetails
 
+    await deleteOrderByNumber(order.number)
     await insertOrder(order)
 
     await app.orderLookup.searchOrder(order.number)

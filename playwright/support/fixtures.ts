@@ -28,7 +28,6 @@ export const test = base.extend<{ app: App }>({
         creditAnalysis: async (score: number) => await mockCreditAnalysis(page, score),
       }
     }
-    // eslint-disable-next-line react-hooks/rules-of-hooks
     await use(app)
   },
 })
