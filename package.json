@@ -9,8 +9,9 @@
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview",
-    "test:e2e": "cross-env NODE_OPTIONS=--use-system-ca playwright test",
-    "test:e2e:ui": "cross-env NODE_OPTIONS=--use-system-ca playwright test --ui"
+    "test": "vitest",
+    "test:e2e": "cross-env NODE_OPTIONS=\"--use-system-ca --dns-result-order=ipv4first\" playwright test",
+    "test:e2e:ui": "cross-env NODE_OPTIONS=\"--use-system-ca --dns-result-order=ipv4first\" playwright test --ui"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
@@ -95,6 +96,8 @@
     "tailwindcss": "^3.4.17",
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.38.0",
-    "vite": "^5.4.19"
+    "vercel": "^54.0.0",
+    "vite": "^5.4.19",
+    "vitest": "^4.1.6"
   }
 }

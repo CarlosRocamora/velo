@@ -1,4 +1,4 @@
-import { db } from './database'
+import { getDb } from './database'
 import { OrderTable } from './schema'
 
 import { OrderDetails } from '../actions/orderLookupActions'
@@ -34,13 +34,13 @@ export async function insertOrder(order: OrderDetails) {
     optionals: [],
   }
   // If the record exists it might throw a duplicate error, but we manage teardown.
-  await db.insertInto('orders').values(data).execute()
+  await getDb().insertInto('orders').values(data).execute()
 }
 
 export async function deleteOrderByNumber(orderNumber: string) {
-  await db.deleteFrom('orders').where('order_number', '=', orderNumber).execute()
+  await getDb().deleteFrom('orders').where('order_number', '=', orderNumber).execute()
 }
 
 export async function deleteOrderByEmail(email: string) {
-  await db.deleteFrom('orders').where('customer_email', '=', email).execute()
+  await getDb().deleteFrom('orders').where('customer_email', '=', email).execute()
 }

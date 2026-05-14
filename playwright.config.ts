@@ -16,6 +16,8 @@ dotenv.config({ path: path.resolve(__dirname, '.env') });
  * See https://playwright.dev/docs/test-configuration.
  */
 export default defineConfig({
+  /** Resolve IPv4 do host do Postgres antes dos workers (Node 24 + rede sem IPv6). */
+  globalSetup: './playwright/global-setup.ts',
 
   // Tempo máximo para cada teste completo (3o segundo é o padrão)
   timeout: 60_000,
@@ -45,7 +47,7 @@ export default defineConfig({
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     /* Base URL to use in actions like `await page.goto('/')`. */
-    baseURL: process.env.BASE_URL || 'https://velo-carlosrocamora.vercel.app',
+    baseURL: 'https://velo-2p4bw7huv-carlos-henrique-s-projects1.vercel.app',
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on',
